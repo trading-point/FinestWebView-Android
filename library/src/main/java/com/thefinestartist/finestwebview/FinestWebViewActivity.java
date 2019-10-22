@@ -477,7 +477,7 @@ public class FinestWebViewActivity extends AppCompatActivity
     menuOpenWithTv = (TextView) findViewById(R.id.menuOpenWithTv);
 
     webLayout = (FrameLayout) findViewById(R.id.webLayout);
-    webView = new WebView(this);
+    webView = new WebView(getApplicationContext());
     webLayout.addView(webView);
   }
 
